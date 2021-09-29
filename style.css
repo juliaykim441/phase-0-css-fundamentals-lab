@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+/*Update header -> align to center*/
+h1{
+  text-align: center;
+}
+/*center image*/
+img{
+  display: block;
+  margin: 0 auto;
+}
+/*center nav links, give all a tags a 10px padding,change background color*/
+nav{
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+  margin: 0 auto;
+}
+/*center and shrink figure caption*/
+figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+/*update text block. give all <p>'s within featured property a hard
+ width of 800px and center text. keep vertical space around p's*/
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 8px auto;
+}
+/*make #details section horizontal. to do this make eachof th <div> float to the left*/
+/*clean up div. all should have sam background coloe, centered text, 
+occupy 25% of the width of the bottom row since we have 4 divs*/
+#details div{
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
+}
